@@ -26,7 +26,7 @@ SECRET_KEY = '$lk5(nj@w*h$gy&=+$#r^d@-zaf5k8!k!rc@sx7dm*n5qt-hm^'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['getnyumba.herokuapp.com']
 
 
 # Application definition
@@ -51,7 +51,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'getnyumba.urls'
+ROOT_URLCONF = 'getnyumba.getnyumba.urls'
 
 TEMPLATES = [
     {
@@ -69,7 +69,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'getnyumba.wsgi.application'
+WSGI_APPLICATION = 'getnyumba.getnyumba.wsgi.application'
 
 
 # Database
